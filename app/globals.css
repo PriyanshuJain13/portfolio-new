@@ -52,9 +52,9 @@ body {
   background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(84,84,84,1) 100%);
 }
 
-.blackBox:hover{
+/* .blackBox:hover{
   box-shadow: 0px 0px 10px 4px rgba(255,255,255,1);
-}
+} */
 
 .whiteTxt{
   color: #FFFFFF;
@@ -69,4 +69,21 @@ body {
 }
 .resumePage{
   height: 100vh;
+}
+
+.hoverLogo1:hover{
+  filter: drop-shadow(0px 0px 15px #0077B5);
+  cursor: pointer;
+}
+.hoverLogo2:hover{
+  filter: drop-shadow(0px 0px 15px #FFFFFF);
+  cursor: pointer;
+}
+.hoverLogo3:hover{
+  filter: drop-shadow(0px 0px 15px #CE9E29);
+  cursor: pointer;
+}
+.hoverLogo4:hover{
+  filter: drop-shadow(1px 0px 15px #D41A30);
+  cursor: pointer;
 }
