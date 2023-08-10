@@ -23,6 +23,6 @@
       "@*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Particle.jsx", "components/HomeBody.jsx", "app/resume/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Particle.jsx", "components/HomeBody.jsx", "app/resume/page.jsx", "components/Contact.jsx"],
   "exclude": ["node_modules"]
 }

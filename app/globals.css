@@ -87,3 +87,9 @@ body {
   filter: drop-shadow(1px 0px 15px #D41A30);
   cursor: pointer;
 }
+
+.submitBtn:hover{
+  background: white;
+  color: #353434;
+  cursor: pointer;
+}
