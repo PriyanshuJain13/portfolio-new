@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
       <div className="w-full md:w-1/2">
         <div className="blackBox flex flex-col p-6 space-y-3">
-          <h1>LETS WORK TOGETHER</h1>
+          <div className='flex flex-row space-x-2 text-4xl ml-2'><h1>LETS WORK</h1><h1 className='text-blue-700'>TOGETHER</h1></div>
           <form action="" className='flex flex-col space-y-4'>
             <input className='blackBox p-4' type="text" placeholder='Name*'/>
             <input className='blackBox p-4' type="email" placeholder='Email*'/>
