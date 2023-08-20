@@ -93,3 +93,7 @@ body {
   color: #353434;
   cursor: pointer;
 }
+
+.site-desc a:hover{
+  color:aqua;
+}

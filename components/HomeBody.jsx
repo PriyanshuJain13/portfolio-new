@@ -157,7 +157,14 @@ const HomeBody = () => {
           </div>
         </div>
 
-        <div className="blackBox w-full sm:w-1/4 xl:w-1/5 h-60"></div>
+        <div className="w-full sm:w-1/4 xl:w-1/5 h-60 p-4 text-center leading-loose text-stone-500 site-desc ">
+          <p>
+            Loosely designed in <a target="_blank" href="https://www.figma.com/" className="text-zinc-200">Figma</a> and coded
+            in <a target="_blank" href="https://code.visualstudio.com" className="text-zinc-200">Visual Studio</a>. Built with{" "}
+            <a target="_blank" href="https://nextjs.org" className="text-zinc-200">Next.js</a> and{" "}
+            <a target="_blank" href="https://tailwindcss.com" className="text-zinc-200">Tailwind CSS</a>, deployed with <a target="_blank" href="https://vercel.com" className="text-zinc-200">Vercel</a>.
+          </p>
+        </div>
       </div>
     </div>
   );
