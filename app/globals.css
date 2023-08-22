@@ -13,6 +13,7 @@
 body {
   font-family: Inter;
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 .flexCenter {
@@ -21,6 +22,10 @@ body {
 
 .flexBetween {
   @apply flex justify-between items-center;
+}
+
+.backEffect{
+
 }
 
 .btn {
