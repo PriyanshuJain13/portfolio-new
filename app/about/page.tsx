@@ -66,7 +66,9 @@ const page = () => {
             climbing, hanging out with my wife and two cats, or running around
             Hyrule searching for Korok seeds
           </div>
-          <div id="skills"></div>
+          <div id="skills">
+
+          </div>
           <div id="projects"></div>
         </div>
       </div>
