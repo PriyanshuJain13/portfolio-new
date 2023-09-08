@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "@components/Navbar";
 import Image from "next/image";
-import demoImg from "@assets/laptop.png"
+import campusNav from "@assets/projects/campusNav.png";
+import customClothing from "@assets/projects/customClothing.png";
+import zura from "@assets/projects/zura.png";
 const page = () => {
   return (
     <div className="flex min-h-screen flex-col p-4 my-8 mx-6 md:mx-14">
@@ -48,7 +50,7 @@ const page = () => {
                   <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                     Projects
                   </span>
-                </a> 
+                </a>
               </li>
             </ul>
           </div>
@@ -69,12 +71,17 @@ const page = () => {
 
             <div className="programming_language space-y-3">
               <h2 className="neonText text-2xl">Programming Languages</h2>
-              <p className="text-red-300"> C , C++ ,JavaScript, TypeScript, HTML, CSS, PHP , Python</p>
+              <p className="text-red-300">
+                {" "}
+                C , C++ ,JavaScript, TypeScript, HTML, CSS, PHP , Python
+              </p>
             </div>
 
             <div className="frameworks space-y-3">
               <h2 className="neonText text-2xl">Libraries & Frameworks</h2>
-              <p className="text-lime-300">React, Next.js, Tailwind , Node.js , Express , Socket.IO</p>
+              <p className="text-lime-300">
+                React, Next.js, Tailwind , Node.js , Express , Socket.IO
+              </p>
             </div>
             <div className="toolsPlatform space-y-3">
               <h2 className="neonText text-2xl">Tools & Platforms</h2>
@@ -86,9 +93,103 @@ const page = () => {
 
           <div id="projects" className="mt-10 space-y-10">
             <h1 className="text-3xl">Projects</h1>
-            <div className="projectBox bg-slate-100 w-96 h-40">
-              <Image alt="project" src={demoImg}/>
+
+            <div className="projectBox p-3 flex">
+              <div className="projectImage">
+                <Image
+                  className="rounded-xl"
+                  alt="project"
+                  src={zura}
+                  height={130}
+                />
+              </div>
+              <div className="projectTxt ml-5 w-1/2">
+                <div className="projextTxthead flex">
+                  <h3 className="text-green-300 text-2xl"><a target="_blank" href = "https://virtual-forest.vercel.app">Virtual Forest</a></h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="inline-block h-4 w-4 shrink-0 "
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </div>
+                <p>
+                  Built a User Interface for <a target="_blank" href="https://zuraverse.xyz">Zuraverse</a>. It is a  gaming metaverse aiming positive change towards nature conservation through gaming.
+                </p>
+              </div>
             </div>
+
+            <div className="projectBox p-3 flex">
+              <div className="projectImage">
+                <Image
+                  className="rounded-xl"
+                  alt="project"
+                  src={campusNav}
+                  height={130}
+                />
+              </div>
+              <div className="projectTxt ml-5 w-1/2">
+                <div className="projextTxthead flex">
+                <h3 className="text-blue-300 text-2xl"><a target="_blank" href="https://github.com/PriyanshuJain13/delorean">Campus Nav</a></h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="inline-block h-4 w-4 shrink-0 "
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </div>
+                <p className="text-sm">
+                CampusNav is a web application designed to help anyone who has lost their way in JIIT Noida. It provides an interactive map of the campus buildings, locations, and landmarks
+                </p>
+              </div>
+            </div>
+            <div className="projectBox p-3 flex">
+              <div className="projectImage w-2/5">
+                <Image
+                  className="rounded-xl"
+                  alt="project"
+                  src={customClothing}
+
+                
+                />
+              </div>
+              <div className="projectTxt ml-5 w-1/2">
+                <div className="projextTxthead flex">
+                  <h3 className="text-green-300 text-2xl"><a target="_blank" href="https://github.com/PriyanshuJain13/customClothing">Custom Clothing</a></h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="inline-block h-4 w-4 shrink-0 "
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </div>
+                <p>
+                This is a web applcation made using React.js,three.js and DALLE-API You can customize your shirt design by changing logo or adding abstract to whole design , with help of OpenAi you can generate designs by adding text Prompt.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

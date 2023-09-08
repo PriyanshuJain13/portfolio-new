@@ -129,3 +129,9 @@ body {
       text-shadow: none;
   }    
 }
+
+.projectBox:hover{
+  border-radius: 1rem;
+  box-shadow:0px 0px 15px rgb(81, 81, 81) ;
+  cursor: pointer;
+}
