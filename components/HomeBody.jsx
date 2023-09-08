@@ -31,7 +31,7 @@ const HomeBody = () => {
       <div className="w-full mt-8 md:w-3/5 md:mt-0 md:px-5">
         <div className="blackBox w-full h-10 pt-2 p-2">
           <marquee>
-            Pre Final year B.tech student working on my portfolio
+            Pre Final year B.tech student currently working on my portfolio 😎
           </marquee>
         </div>
 

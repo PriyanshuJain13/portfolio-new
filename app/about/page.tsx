@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@components/Navbar";
-
+import Image from "next/image";
+import demoImg from "@assets/laptop.png"
 const page = () => {
   return (
     <div className="flex min-h-screen flex-col p-4 my-8 mx-6 md:mx-14">
@@ -47,22 +48,48 @@ const page = () => {
                   <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                     Projects
                   </span>
-                </a>
+                </a> 
               </li>
             </ul>
           </div>
         </div>
         <div className="right text-white lg:w-1/2">
           <div id="about" className="mt-8 leading-8 text-slate-300 lg:mt-0">
-            Back in 2021, I decided to try my hand at web
-            development. Currently I am a 3rd year student at JAYPEE INSTITUTE OF INFORMATION TECHNOLOGY and doing my Bachelors in Technology in field of Computer Science. Also Looking 👨‍🎓 for Software developer opputunities. I have created some projects and learned a lot about
-            development from them and also done programming in other languages like C++ , Python🐍 . When I'm not at the computer, I'm usually doing workout
-            or hanging out with my friends, or going through some books.
+            Back in 2021, I decided to try my hand at web development. Currently
+            I am a 3rd year student at JAYPEE INSTITUTE OF INFORMATION
+            TECHNOLOGY and doing my Bachelors in Technology in field of Computer
+            Science. Also Looking 👨‍🎓 for Software developer opputunities. I have
+            created some projects and learned a lot about development from them
+            and also done programming in languages like C++ , Python🐍 . When
+            I'm not at the computer, I'm usually doing workout or hanging out
+            with my friends, or going through some books.
           </div>
-          <div id="skills">
-            
+          <div id="skill" className="mt-10 space-y-10">
+            <h1 className="text-4xl">Skills</h1>
+
+            <div className="programming_language space-y-3">
+              <h2 className="neonText text-2xl">Programming Languages</h2>
+              <p className="text-red-300"> C , C++ ,JavaScript, TypeScript, HTML, CSS, PHP , Python</p>
+            </div>
+
+            <div className="frameworks space-y-3">
+              <h2 className="neonText text-2xl">Libraries & Frameworks</h2>
+              <p className="text-lime-300">React, Next.js, Tailwind , Node.js , Express , Socket.IO</p>
+            </div>
+            <div className="toolsPlatform space-y-3">
+              <h2 className="neonText text-2xl">Tools & Platforms</h2>
+              <p className="text-blue-300">
+                Git, GitHub, Vercel, Heroku, Docker, Firebase, MongoDB, Figma
+              </p>
+            </div>
           </div>
-          <div id="projects"></div>
+
+          <div id="projects" className="mt-10 space-y-10">
+            <h1 className="text-3xl">Projects</h1>
+            <div className="projectBox bg-slate-100 w-96 h-40">
+              <Image alt="project" src={demoImg}/>
+            </div>
+          </div>
         </div>
       </div>
     </div>

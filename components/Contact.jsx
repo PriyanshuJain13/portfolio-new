@@ -4,7 +4,7 @@ import dev from "@assets/dev.png";
 
 const Contact = () => {
   return (
-    <div className="text-neutral-50 flex flex-col justify-between md:flex-row">
+    <div className="text-neutral-50 flex flex-col justify-between md:flex-row" id="contact">
       <Image src={dev} />
       <div className="w-full md:w-1/2">
         <div className="blackBox flex flex-col p-6 space-y-3">
