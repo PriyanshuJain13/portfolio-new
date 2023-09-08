@@ -10,7 +10,7 @@ const Navbar = () => {
             <li className='flex items-center'><a href='/about'>Service</a></li>
             <li className='flex items-center'><a href='#contact'>Contact</a></li>
         </ul>
-        <button className='btn p-4 hover:'><a href='#Contact-form'>Let's Talk</a></button>
+        <button className='btn p-4 hover:'><a href='#contact'>Let's Talk</a></button>
     </nav>
   )
 }
