@@ -14,7 +14,7 @@ export default function Home() {
         <Contact />
         <Footer />
       </div>
-      {/* <Particle /> */}
+      <Particle />
     </main>
   );
 }
